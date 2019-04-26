@@ -8,7 +8,7 @@ imgTrainData=[]
 imgTrainLabels=[]
 imgTestData=[]
 imgTestLabels=[]
-for i in range(13,15):
+for i in range(1,22):
     List=os.listdir('PIE/'+str(i))  
     for j in range(1,len(List)+1):
         fr=Image.open('PIE/'+str(i)+'/'+str(j)+'.jpg')
