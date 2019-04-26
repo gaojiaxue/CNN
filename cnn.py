@@ -136,7 +136,7 @@ def next_batch():
 sess = tf.Session()
 init=tf.initialize_all_variables()
 sess.run(init)
-#interations for 1000 steps
+#interations for 1500 steps
 for i in range(1500):
     # use minibatch dataset to train, each batch contains 100 data
     batch_X, batch_Y = next_batch()
